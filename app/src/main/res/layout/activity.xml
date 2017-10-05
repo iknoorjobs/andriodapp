@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:paddingTop="0dp"
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/img" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:text="SignUp Form"
+        android:textColor="#ffff"
+        android:id="@+id/textView" />
+
+
+
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Name"
+        android:textColor="#ffff"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/message1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Email"
+        android:textColor="#ffff"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/message2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Password"
+        android:textColor="#ffff"
+        android:layout_below="@+id/message1"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/message3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Confirm Password"
+
+        android:layout_below="@+id/message2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"/>
+
+    <Button android:id="@+id/btn"
+
+        android:layout_width="300dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Register"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/message3"
+
+        android:background="@color/colorPrimaryDark"
+
+        android:layout_marginTop="40dp"
+
+        android:textColor="#ffff"
+        />
+
+
+
+
+
+</RelativeLayout>

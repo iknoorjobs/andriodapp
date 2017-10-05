@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    >
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:scaleType="fitXY"
+        android:paddingTop="0dp"
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#F5F5F5"
+
+        android:gravity="center"
+        android:text="Apple"
+        android:paddingTop="10dp"
+        android:textSize="45sp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paul Alto"
+        android:paddingTop="30sp"
+        android:layout_below="@id/myImageView"
+        android:textColor="#F5F5F5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/title_text_view"
+        android:layout_below="@id/myImageView"
+
+
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/loo" />
+    <TextView
+        android:id="@+id/title_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          Think different.
+        Let us loop you in."
+        android:paddingTop="20sp"
+        android:textColor="#F5F5F5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/title_text_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+</RelativeLayout>
+
+
+
